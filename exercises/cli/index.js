@@ -2,6 +2,7 @@ const program = require('commander')
 const { prompt } = require('inquirer')
 const {newContactPrompts} = require('./prompts')
 const {getContacts, saveContacts} = require('./utils')
+require('./prompts')
 
 program
   .version('0.0.1')
