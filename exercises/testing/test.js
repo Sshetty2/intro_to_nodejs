@@ -12,7 +12,7 @@ describe('users', () => {
       expect(user.id).toBe(1)
     })
   })
-  describe('deletUser', () => {
+  describe('deleteUser', () => {
     test('deletes user with id if user is there', async () => {
       expect.assertions(2)
 
